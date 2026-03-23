@@ -54,9 +54,19 @@ role-tables:
 
 <gradio-app src="https://xiaohang07-mattergpt-cpu.hf.space" theme_mode="light"></gradio-app>
 
+<!-- 新增的 Gradio 应用：直接使用 <gradio-app>，无需重复加载 gradio.js -->
+<gradio-app src="https://aslp-lab-diffrhythm.hf.space" theme_mode="light"></gradio-app>
 
-
-
+<!-- 可选：使用 iframe 自定义尺寸展示同一应用（如需启用，取消注释下面的 iframe 并注释上面的 <gradio-app> 即可） -->
+<!--
+<iframe
+    src="https://aslp-lab-diffrhythm.hf.space"
+    frameborder="0"
+    width="850"
+    height="450"
+    style="margin-top: 1rem; border-radius: 12px;"
+></iframe>
+-->
 
 <div id="people">
     <h2>People</h2>
